@@ -1,0 +1,26 @@
+.Counter {
+  padding: 1rem;
+  border: #ffffff solid 4px;
+  margin-bottom: 1rem;
+}
+
+.Counter .label {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.Counter button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  color: #2E3347;
+}
+
+.Counter button:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,15 @@
+.Row {
+  margin-bottom: 1rem;
+}
+
+.Row .label {
+  margin-bottom: 0.5rem;
+}
+
+.Row input {
+  border: none;
+  color: #747474;
+  font-weight: 500;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+}
