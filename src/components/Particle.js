@@ -11,6 +11,7 @@ function Particle ({ background, size }) {
     width: size,
     height: size,
     background,
+    pointerEvents: 'none',
     borderRadius: size / 2,
     left: left - size / 2,
     top: top - size / 2,

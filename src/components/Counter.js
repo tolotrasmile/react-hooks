@@ -15,8 +15,8 @@ function reducer (state = 0, action) {
 const increment = (value = 1) => ({ type: 'INCREMENT', value });
 const decrement = (value = 1) => ({ type: 'DECREMENT', value });
 
-export default function Counter () {
-  const [count, dispatch] = useReducer(reducer, 0);
+function Counter ({ value }) {
+  const [count, dispatch] = useReducer(reducer, value);
   return (
     <div className="Counter">
       <div className="label">
@@ -27,3 +27,9 @@ export default function Counter () {
     </div>
   );
 }
+
+Counter.defaultProps = {
+  value: 0
+};
+
+export default Counter;
