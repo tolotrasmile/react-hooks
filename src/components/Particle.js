@@ -16,7 +16,7 @@ function Particle ({ background, size }) {
     left: left - size / 2,
     top: top - size / 2,
     position: 'absolute',
-    zIndex: 99999
+    zIndex: Number.MAX_VALUE
   };
   return <div style={style}/>;
 }

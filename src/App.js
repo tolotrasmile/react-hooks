@@ -6,7 +6,7 @@ function App () {
   return (
     <div>
       <header className="App-header">
-        <Counter value={20}/>
+        <Counter value={0}/>
       </header>
     </div>
   );
